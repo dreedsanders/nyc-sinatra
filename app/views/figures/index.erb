@@ -1,0 +1,12 @@
+<h2>Historical Figures</h2>
+
+<h3>This is my index page for historical figures</h3>
+
+<ul>
+<% @figures.each do | figure | %>
+<li> <%=figure.name %> </li>
+<% end %>
+</ul>
+
+
+ <a class="button" href="/create_figure">Create New Figure</a>
